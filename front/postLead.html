@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Resource/css/style.css">
     <title>Cadastro</title>
 </head>
 <body>
 
     <div class="bg">
+        <div class="img"></div>
         <div class="container">
             <form action="" method="post">
 
@@ -20,7 +21,7 @@
 
                 <div class="group">
                     <label for="#fone">Telefone</label>
-                    <input class="input" id="fone" placeholder="  Ex: (81) 9.9500-5627" type="number">
+                    <input class="input" id="fone" placeholder="  Ex: (81) 9.9500-5627" type="text">
                 </div>
 
                 <div class="group">
@@ -37,13 +38,18 @@
                     <label for="#bird">Data de nascimento</label>
                     <input class="input" id="bird" type="date">
                 </div> 
+
+                <div class="group">
+                    <input  id="btn" class="btn" type="button" value="Salvar">
+                </div>
                 
             </form>
+            
         </div>
     </div>
       
       
-      
+      <script src="Resource/js/script.js"></script>
     
 </body>
 </html>
