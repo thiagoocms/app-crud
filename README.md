@@ -94,7 +94,7 @@ Nós usamos [GIT](https://git-scm.com/downloads) para controle de versão no [GI
 Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início 
 
 
-* **Thiago Cavalcante** - *Dev. Backend* - [thiagoocms](https://github.com/thiagoocms)
+* **Thiago Cavalcante** - *Dev. Full stack* - [thiagoocms](https://github.com/thiagoocms)
 
 
 
