@@ -1,36 +1,23 @@
-package com.crud.crud.domain.entity.client;
+package com.crud.crud.infra.rest.dto;
 
-import javax.persistence.*;
+public class ClientDTO {
 
-@Entity
-@Table(name = "tb_cliente")
-public class Client {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name="Nome", length=255)
     private String name;
 
-    @Column(name="Telefone", length=11)
     private String fone;
 
-    @Column(name="Email", length=255)
     private String email;
 
-    @Column(name="Profissão", length=50)
     private String job;
 
-
-    @Column(name="Data_de_nascimento", length=255)
     private String birth;
 
-    public Client() {
-
+    public ClientDTO() {
     }
 
-    public Client(Long id, String name, String fone, String email, String job, String birth) {
+    public ClientDTO(Long id, String name, String fone, String email, String job, String birth) {
         this.id = id;
         this.name = name;
         this.fone = fone;
